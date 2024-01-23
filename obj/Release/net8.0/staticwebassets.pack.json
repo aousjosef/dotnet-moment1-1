@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\11.bundle.scp.css",
+      "PackagePath": "staticwebassets\\11.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\css\\layout\\_holygrail.scss",
+      "PackagePath": "staticwebassets\\css\\layout\\_holygrail.scss"
+    },
+    {
+      "Id": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.11.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.11.props",
+      "PackagePath": "build\\11.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.11.props",
+      "PackagePath": "buildMultiTargeting\\11.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.11.props",
+      "PackagePath": "buildTransitive\\11.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

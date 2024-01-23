@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8565f51c-bf99-413a-97c7-2926152ae4fa/resourceGroups/moment11_aojo/providers/Microsoft.Web/sites/aojo-moment1-1",
+    "appService.deploySubpath": "bin\\Release\\net8.0\\publish"
+}

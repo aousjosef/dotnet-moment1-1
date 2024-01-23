@@ -1,0 +1,7 @@
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\11\bin\Release\net8.0\publish\11.exe
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\11\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\11\bin\Release\net8.0\publish\appsettings.json
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\11\bin\Release\net8.0\publish\11.dll
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\11\bin\Release\net8.0\publish\11.deps.json
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\11\bin\Release\net8.0\publish\11.runtimeconfig.json
+C:\Users\aousj\Min enhet\Miun\k15 - DT191G ASP.NET C#\m1\11\bin\Release\net8.0\publish\11.pdb
