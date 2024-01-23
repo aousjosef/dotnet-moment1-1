@@ -1,8 +1,57 @@
 ﻿@page
 @model MyApp.Namespace.RazorModel
+@using System.Globalization
+
 @{
 
+
     ViewData["Title"] = "Razor";
+
+    string datumOchTid = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+    //Säkerställer att dagen visas på svenska
+    CultureInfo swedishCulture = new CultureInfo("sv-SE");
+
+    string dag = DateTime.Now.ToString("dddd", swedishCulture);
+    string[] kurser = {
+"Webbutveckling I (dt057g)",
+"Introduktion till programmering i JavaScript (dt084g)",
+"Grafisk teknik för webb (dt200g)",
+"Webbanvändbarhet (dt068g)",
+"Databaser (dt003g)",
+"Webbutveckling II (dt093g)",
+"Webbdesign för CMS (dt197g)",
+"Webbutveckling III (dt173g)",
+"Projektledning (ik060g)",
+"Fullstacks-utveckling med ramverk (dt193g)",
+"JavaScript-baserad webbutveckling (dt162g)",
+"Programmering i C#.net (dt071g)",
+"Webbutveckling med .NET (dt191g)",
+"Affärsplaner och kommersialisering (ig021g)",
+"Självständigt arbete (dt140g)"
+};
+
 }
 
-<h1>Hello from @ViewData["Title"]</h1>
+<h1>@ViewData["Title"]</h1>
+<h2>Information</h2>
+
+<h3>Datum/klockslag: @datumOchTid</h3>
+
+@if (dag == "måndag")
+{
+    <p>Idag är det @dag!</p>
+}
+else
+{
+    <p>Idag är inte måndag..</p>
+}
+
+<h3>Kurser jag har läst</h3>
+
+<ul>
+    @foreach (string kurs in kurser)
+    {
+        <li>@kurs</li>
+    }
+</ul>
