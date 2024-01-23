@@ -3,8 +3,6 @@
 }
 
 body {
-  background: #e4e4e4;
-  padding: 5px;
   height: 100vh;
   margin: 0;
   font: 500 100% system-ui, sans-serif;
@@ -32,18 +30,55 @@ body {
 .page-header {
   grid-column: 1/-1;
   background: #ffcdd2;
-  padding: 2rem 0;
+}
+.page-header .nav-wrapper {
+  display: flex;
+  border: 3px black solid;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.1rem 0;
+}
+.page-header .nav-wrapper img {
+  width: 6.5rem;
 }
 
 .page-sidebar {
   grid-column: 1/2;
   grid-row: 2/3;
   background: #e1bee7;
+  display: flex; /* Use flex to center the content horizontally */
 }
-
-.page-nav {
-  grid-column: 2/3;
-  background: #bbdefb;
+.page-sidebar .sidebar-wrapper {
+  width: 100%;
+}
+.page-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+}
+.page-sidebar ul li {
+  display: flex;
+  justify-content: center;
+}
+.page-sidebar ul a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: 3px solid black;
+  width: 90%;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  color: black;
+}
+.page-sidebar ul a:hover {
+  background-color: black;
+  color: white;
+}
+.page-sidebar .selected {
+  background-color: black;
+  color: white;
 }
 
 .page-main {
@@ -54,9 +89,4 @@ body {
 .page-footer {
   grid-column: 1/-1;
   background: #ffecb3;
-}
-
-details p {
-  text-transform: none;
-  text-align: left;
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sIFn7QVzOAZcTBW2yKWCBr7ZBZg8DK1iYUVTO/P9sHI=",
+  "Hash": "3OO3xvO8RDmr4XOop44IP5f3aTDtlWfV2Y5uKKQQimQ=",
   "Source": "11",
   "BasePath": "_content/11",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\11.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\css\\layout\\_holygrail.scss",
+      "SourceId": "11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\",
+      "BasePath": "_content/11",
+      "RelativePath": "css/layout/_holygrail.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout\\_holygrail.scss"
     },
     {
       "Identity": "C:\\Users\\aousj\\Min enhet\\Miun\\k15 - DT191G ASP.NET C#\\m1\\11\\wwwroot\\css\\style.css",
