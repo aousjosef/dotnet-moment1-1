@@ -15,6 +15,7 @@ body {
   display: grid;
   grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
   grid-template-rows: min-content 1fr min-content;
+  gap: 1rem;
 }
 @media (max-width: 600px) {
   .page-wrap {
@@ -29,11 +30,10 @@ body {
 
 .page-header {
   grid-column: 1/-1;
-  background: #ffcdd2;
+  background: #ffecb3;
 }
 .page-header .nav-wrapper {
   display: flex;
-  border: 3px black solid;
   align-items: center;
   justify-content: space-around;
   padding: 0.1rem 0;
@@ -47,6 +47,7 @@ body {
   grid-row: 2/3;
   background: #e1bee7;
   display: flex; /* Use flex to center the content horizontally */
+  border-radius: 1rem;
 }
 .page-sidebar .sidebar-wrapper {
   width: 100%;
@@ -85,6 +86,7 @@ body {
   grid-column: 2/3;
   background: #dcedc8;
   padding: 2rem;
+  border-radius: 1rem;
 }
 .page-main .main-wrapper {
   margin: 0 auto;
@@ -97,4 +99,15 @@ body {
   background: #ffecb3;
   text-align: center;
   padding: 1rem 0;
+}
+
+.quote-wrapper {
+  text-align: center;
+}
+
+button {
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
 }/*# sourceMappingURL=style.css.map */
